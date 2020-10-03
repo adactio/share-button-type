@@ -63,7 +63,7 @@ Support for `button type="share"` can be detected in JavaScript:
 
 ```
 const testButton = document.createElement('button');
-testButton.setAttribut('type', 'share);
+testButton.setAttribute('type', 'share);
 if (testButton.type != 'share') {
   // Polyfill needed!
 }
